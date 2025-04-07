@@ -38,19 +38,10 @@
                 0,
                 0,
                 255
-            ],
-            "button_background": [
-                0,
-                0,
-                0
             ]
         },
         "tints": {
-            "buttons": [
-                1,
-                0.8,
-                1
-            ]
+            
         },
         "properties": {
             "ntp_background_size": "contain",

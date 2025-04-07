@@ -8,12 +8,14 @@
         },
         "colors": { 
             "frame": [
+                0, 
+                150, 
+                199
+            ],
+            "toolbar": [
                 52,
                 20,
                 134
-            ],
-            "toolbar": [
-                124, 201, 165
             ],
             "ntp_text": [
                 0, 0, 0
@@ -22,7 +24,7 @@
                 0, 0, 0
             ],
             "ntp_section": [
-                0, 0, 0
+                0, 0, 255
             ],
             "button_background": [
                 0, 0, 0
@@ -30,13 +32,13 @@
         },
         "tints": {
             "buttons": [
-                0.33,
-                0.5,
-                0.47
+                1,
+                0.8,
+                1
             ]
         },
         "properties": {
-            "ntp_background_alignment": "bottom"
+            "ntp_background_alignment": "center"
         }
     }
 }

@@ -2,14 +2,16 @@
     "manifest_version": 2,
     "version": "1",
     "name": "@Casta2k theme",
+    "description": "a blue tone theme",
     "theme": {
         "images": {
-            "theme_ntp_background": "./images/SequoiaDark.png"
+            "theme_ntp_background": "./assets/SequoiaDark.png",
+            "theme_toolbar": "./assets/toolbar_pattern_blue.png"
         },
-        "colors": { 
+        "colors": {
             "frame": [
-                0, 
-                150, 
+                0,
+                150,
                 199
             ],
             "toolbar": [
@@ -17,17 +19,30 @@
                 20,
                 134
             ],
+            "tab_inactive": [
+                100,
+                100,
+                100
+            ],
             "ntp_text": [
-                0, 0, 0
+                0,
+                0,
+                0
             ],
             "ntp_link": [
-                0, 0, 0
+                0,
+                0,
+                0
             ],
             "ntp_section": [
-                0, 0, 255
+                0,
+                0,
+                255
             ],
             "button_background": [
-                0, 0, 0
+                0,
+                0,
+                0
             ]
         },
         "tints": {
@@ -38,9 +53,10 @@
             ]
         },
         "properties": {
+            "ntp_background_size": "contain",
             "ntp_background_alignment": "center",
             "ntp_background_repeat": "no-repeat",
-            "ntp_background_size": "cover"
+            "toolbar_top_separator": "repeat"
         }
     }
 }
